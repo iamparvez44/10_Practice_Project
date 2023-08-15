@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(91, 76, 76, 0.234);
+}
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    padding: 0px 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(91, 76, 76, 0.234);
+    box-shadow: 10 10 20 black;
+}
+.icon_bar{
+    font-size: 32px;
+
+}
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero_content h1{
+    font-size: 50px;
+}
+
+.hero_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer_btn span{
+    background-color: green;
+    color: white;
+    padding: 5px 20px;
+}
+
+.hero_section_content_btn button{
+background-color: rgba(225, 166, 55, 0.896);
+padding: 10px 15px;
+border: none;
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
+.hero_section_content_btn button:hover{
+    background-color: rgba(77, 52, 6, 0.896);
+    transition: all .3s linear;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.card_section{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    
+}
+
+.card_boxes{
+    display: flex;
+    padding: 0 40px;
+    gap: 15px;
+    
+}
+
+.voucher_content, .Healthy_food_content, .home_delivery_content{
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+.our_menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.our_menu p{
+    
+    background-color: green;
+   padding: 5px 20px;
+   color: white;
+   font-size: 15px;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+.heading_explore{
+    text-align: center;
+}
+
+.grid-image {
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  
+.grid_pics{
+    display: grid;
+    gap: 10px;
+    box-sizing: border-box;
+    padding: 0 20px;
+   
+    grid-template-areas: 
+
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+    
+    }
+
+.box-1{
+    grid-area: I1;
+}
+.box-2{
+    grid-area: I2;
+}
+.box-3{grid-area: I3;
+}
+.box-4{
+    grid-area: I4;
+}
+.box-5{
+    grid-area: I5;
+}
+.box-6{
+    grid-area: I6;
+}
+.box-7{
+    grid-area: I7;
+}
+
+.footer{
+    display: flex;
+    gap: 80px;
+    font-size: 10px;
+    background-color: rgba(54, 44, 44, 0.625);
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer-boxes{
+    padding: 20px 30px;
+}

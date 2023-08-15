@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero-section{
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_container{
+    color: white;
+    max-width: 900px;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 120px;
+}
+
+.small-text{
+    font-size: 20px;
+}
+
+.dark-section{
+    background-color: rgb(30, 27, 27);
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px 20px;
+    
+}
+.big-text{
+font-size: 60px;
+}
+
+.work{
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    gap: 25px;
+}
+
+.web_dev{
+    display: flex;
+    flex-direction: column;
+}
+
+.web_pic{
+    background-image: url(images/web.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+    
+}
+.app_pic{
+    background-image: url(images/mobile.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+}
+
+.uxui_pic{
+    background-image: url(images/uiux.png);
+    min-height: 200px;
+    background-repeat: no-repeat;
+}
+
+.work-box{
+    box-shadow: 5px 5px 10px black;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+.work-box > p{
+    padding: 10px 10px;
+}
+
+h3{
+    padding: 10px 10px; 
+    text-align: center; 
+    display: flex;
+    text-justify: auto;
+}
+
+.work-box:hover{
+    box-shadow: 10px 15px 10px rgb(91, 36, 36);
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.contect-section{
+    display: flex;
+    
+}
+
+.box-1{
+    background-color: green;
+    padding: 20px 100px;
+    
+}
+
+
+.box-2{
+    background-color: brown;
+    padding: 20px 100px;
+    
+
+}
+
+.contect-section  h4{
+    font-size: 40px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30px 10px;
+}
