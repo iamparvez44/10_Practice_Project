@@ -15,6 +15,7 @@ body {
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .logo{
@@ -77,4 +78,142 @@ nav{
 
 .hero_text h3 p{
     font-weight: 100;
+    text-align: center;
 }
+
+.music-section .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(12, 12, 62);
+    color: white;
+    
+}
+
+.music-section .container h4{
+    font-weight: 100;
+    padding: 0 192px;
+    text-align: center;
+}
+
+.trial-btn{
+    padding: 15px 30px;
+    background-color: rgb(206, 47, 47);
+    color: white;
+}
+
+.music-section .container p{
+    font-weight: none;
+}
+
+.ipad-phone-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+
+}
+
+.about-music{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.about-music .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.secondary-btn{
+    margin: 0 auto;
+    background-color: rgb(12, 12, 62);
+    padding: 10px 30px;
+    color: white;
+
+}
+
+.about-music .container h3{
+    font-size: 23px;
+}
+
+.about-music .container h3~p{
+    padding: 0 80px;
+    line-height: 30px;
+}
+
+
+
+.video-section{
+ 
+}
+
+.video-section .container {
+
+    background-image: url(images/video.png);
+    min-height: 800px;
+   background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.video-section .container p{
+    padding: 0 80px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.video-section .container h3{
+    font-size: 30px;
+}
+
+.gift-section .container{
+    display: flex;
+    gap: 40px;
+    
+
+}
+
+.gift-card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gift-card-text .secondary-btn{
+    align-self: flex-start;
+}
+
+.upper-footer .container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: rgb(61, 26, 83);
+    color: white;
+}
+
+.footer-links ul{
+    list-style: none;
+}
+.footer-links ul li{
+    font-size: 12px;
+}
+
+.footer-lower .container{
+    text-align: center;
+    background-color: rgb(11, 11, 73);
+    color: white;
+}
+ 
+
